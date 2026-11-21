@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/bg_country_item"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="13dp">
+    <ImageView
+        android:id="@+id/countryFlag"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:contentDescription="Bandera del país"
+        android:scaleType="centerCrop"
+        android:background="@drawable/bg_flag_frame" />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/countryName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Guatemala"
+            android:textColor="@color/navy"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/countryRegion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Américas"
+            android:textColor="@color/muted"
+            android:textSize="11sp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/countryCode"
+        android:layout_width="42dp"
+        android:layout_height="28dp"
+        android:background="@drawable/bg_code_badge"
+        android:gravity="center"
+        android:text="GT"
+        android:textColor="@color/teal_dark"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+</LinearLayout>
