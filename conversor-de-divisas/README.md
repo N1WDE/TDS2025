@@ -23,7 +23,7 @@ npm run build
 ```
 
 ## Compilar Android localmente
-Requisitos: JDK 17 y Android SDK.
+Requisitos: JDK 21 y Android SDK.
 
 ```bash
 npm install
