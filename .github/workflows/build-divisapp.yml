@@ -23,15 +23,12 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '22'
-          cache: npm
-          cache-dependency-path: conversor-de-divisas/package-lock.json
 
       - name: Configurar Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: '17'
-          cache: gradle
 
       - name: Configurar Android SDK
         uses: android-actions/setup-android@v3
