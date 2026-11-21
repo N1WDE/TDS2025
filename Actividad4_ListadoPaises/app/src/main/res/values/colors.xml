@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="page_background">#F3F6FA</color>
+    <color name="navy">#172B46</color>
+    <color name="navy_light">#243E5F</color>
+    <color name="teal">#287F83</color>
+    <color name="teal_dark">#21696D</color>
+    <color name="muted">#7E8CA0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_70">#C8D4E2</color>
+    <color name="card_divider">#46617E</color>
+    <color name="line">#E6ECF3</color>
+    <color name="soft_teal">#E8F4F3</color>
+</resources>
